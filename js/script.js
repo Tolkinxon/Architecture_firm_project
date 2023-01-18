@@ -48,6 +48,7 @@ wrapperCarusel.addEventListener('mouseenter',() => {
 
 next.addEventListener('click', () => {
   clearInterval(movingCarusel)
+
   offset -= width
 
   slide.style.transform = `translateX(${offset}px)`
