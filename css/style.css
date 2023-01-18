@@ -20,6 +20,7 @@ h1 {
   margin-top: 20px;
   font-style: normal;
   font-size: 40px;
+  cursor: pointer;
 }
 
 .about {
@@ -35,6 +36,10 @@ h1 {
   cursor: pointer;
 }
 
+.active {
+  box-shadow: inset 0px 4px black;
+}
+
 .item:hover {
   box-shadow: inset 0px 4px black;
 }
@@ -42,6 +47,17 @@ h1 {
 p {
   margin-top: 10px;
 }
+
+/*********** About style codes **********/
+.hr {
+  width: 100%;
+  height: 40px;
+  border-top: 1px solid black;
+  border-bottom: 4px solid black;
+  margin-top: 40px;
+}
+
+/*********** About style codes **********/
 
 .carusel {
   width: 100%;
@@ -65,8 +81,8 @@ p {
 }
 
 .slide {
+  margin-top: 0px;
   display: flex;
-  width: 50px;
   position: relative;
   left: -800px;
 }
@@ -75,7 +91,7 @@ p {
   width: 100%;
   height: 400px;
   border-top: 7px solid black;
-  margin-top: 50px;
+  cursor: pointer;
 }
 
 .more-info {
@@ -89,8 +105,10 @@ p {
   width: 30%;
 }
 
-.info .item {
+.itemInfo {
   width: 100%;
+  border-top: 1px solid black;
+  margin-left: 1%;
 }
 
 .MIImg {
@@ -126,6 +144,7 @@ p {
   position: relative;
   left: 130px;
   bottom: 15px;
+  cursor: pointer;
 }
 
 .triangle {
@@ -150,4 +169,29 @@ p {
 
 .fa-brands {
   margin-left: 4px;
+  cursor: pointer;
 }
+
+/*********** About style codes **********/
+.sectionAbout {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  border-top: 1px solid black;
+  margin-top: 20px;
+  padding-top: 20px;
+}
+
+.architectInform {
+  width: 48%;
+  margin: 5px;
+  padding: 10px 0px;
+}
+
+.architectImg {
+  width: 100%;
+  height: 150px;
+  background-color: black;
+}
+
+/*********** About style codes **********/
