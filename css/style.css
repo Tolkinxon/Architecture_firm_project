@@ -3,7 +3,7 @@
   padding: 0px;
 }
 body {
-  background-image: url('../img/background.jpg');
+  background: transparent;
 }
 
 .container {
@@ -32,6 +32,11 @@ h1 {
   width: 20%;
   border-top: 1px solid black;
   margin-left: 1%;
+  cursor: pointer;
+}
+
+.item:hover {
+  box-shadow: inset 0px 4px black;
 }
 
 p {
