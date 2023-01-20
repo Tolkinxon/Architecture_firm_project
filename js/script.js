@@ -1,5 +1,7 @@
 'use strict'
 
+// ********************  HOME SIDE ***********************
+
 const wrapperCarusel = document.querySelector('.carusel')
 const images = document.querySelectorAll('.slideImg')
 let slide = document.querySelector('.slide')
@@ -36,15 +38,11 @@ const movingCarusel = setInterval(() => {
       offset = 0
     }, 500)
   }
+}, 1000)
 
-},1000)
-
-
-wrapperCarusel.addEventListener('mouseenter',() => {
+wrapperCarusel.addEventListener('mouseenter', () => {
   clearInterval(movingCarusel)
 })
-
-
 
 next.addEventListener('click', () => {
   clearInterval(movingCarusel)
@@ -95,3 +93,23 @@ prev.addEventListener('click', () => {
     }, 500)
   }
 })
+
+// ********************  HOME SIDE ***********************
+
+//********************  COMMERCIAL PAGE SIDE  **********************
+
+const commercialSlideImg = document.querySelector('.commercialSlideImg')
+const wrapperImg = document.querySelector('.wrapperImg')
+const WWImg = document.querySelector('.wrapperWrapperImg')
+const commercialImages1 = document.querySelectorAll('.commercialImages1')
+let widthCommercial = window.getComputedStyle(wrapperImg).width
+
+widthCommercial = parseInt(widthCommercial)
+
+commercialImages1.forEach((item) => {
+ item.document.style.width = widthCommercial
+})
+
+WWImg.style.width = commercialImages1.length * 100 + '+'
+
+//********************  COMMERCIAL PAGE SIDE  **********************
