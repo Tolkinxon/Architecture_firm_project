@@ -21,4 +21,15 @@
   }
   
   /*********** About style codes **********/
+
+  /*********** About style codes **********/
+.hr {
+  width: 100%;
+  height: 40px;
+  border-top: 1px solid black;
+  border-bottom: 4px solid black;
+  margin-top: 40px;
+}
+
+/*********** About style codes **********/
   
