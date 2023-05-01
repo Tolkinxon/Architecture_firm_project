@@ -96,6 +96,9 @@ prev.addEventListener('click', () => {
 
 // ********************  HOME SIDE ***********************
 
+
+
+
 //********************  COMMERCIAL PAGE SIDE  **********************
 
 const commercialSlideImg = document.querySelector('.commercialSlideImg')
