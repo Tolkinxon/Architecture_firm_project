@@ -1,0 +1,21 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+.inputting {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.input-side {
+  width: 48.5%;
+  border: 2px solid blue;
+}
+
+.showing-address {
+  width: 48.5%;
+  border: 2px solid blue;
+}
