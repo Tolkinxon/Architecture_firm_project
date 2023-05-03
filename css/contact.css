@@ -25,3 +25,10 @@
   flex-direction: column;
   gap: 5px;
 }
+
+input {
+  text-indent: 10px;
+  font-family: sans-serif;
+  font-size: 15px;
+  color: red;
+}
