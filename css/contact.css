@@ -26,9 +26,10 @@
   gap: 5px;
 }
 
-input {
+input,
+textarea {
   text-indent: 10px;
   font-family: sans-serif;
   font-size: 15px;
-  color: red;
+  padding: 5px;
 }
