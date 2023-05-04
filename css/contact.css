@@ -33,6 +33,14 @@ textarea {
   padding: 5px;
 }
 
+.showing-address {
+  border: 2px solid red;
+}
+
+iframe {
+  width: 100%;
+}
+
 button {
   display: block;
   margin: 10px auto;
