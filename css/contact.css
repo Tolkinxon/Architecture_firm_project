@@ -6,16 +6,14 @@
 
 .inputting {
   display: flex;
-  height: 400px;
+  height: 300px;
   flex-direction: row;
   justify-content: space-between;
   margin-top: 20px;
-  border: 2px solid blue;
 }
 
 .input-side {
   width: 48.5%;
-  border: 2px solid red;
 }
 
 .showing-address {
@@ -38,7 +36,6 @@ textarea {
 
 .showing-address {
   width: 48.5%;
-  border: 2px solid black;
 }
 
 iframe {
