@@ -3,10 +3,8 @@
   padding: 0px;
 }
 body {
-  background-image: url('../img/back.png');
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
+  background-image: url('../img/back3.png');
+  background-repeat: repeat;
 }
 
 .container {
