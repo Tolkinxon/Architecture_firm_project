@@ -7,6 +7,13 @@ body {
   background-repeat: repeat;
 }
 
+nav {
+  position: fixed;
+  width: 100vw;
+  height: 400px;
+  background-color: #FFFFFF;
+}
+
 .container {
   margin: 0px auto;
   width: 1000px;
