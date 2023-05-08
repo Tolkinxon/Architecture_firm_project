@@ -2,10 +2,6 @@
   margin: 0px;
   padding: 0px;
 }
-body {
-  background-image: url('../img/back3.png');
-  background-repeat: repeat;
-}
 
 nav {
   position: fixed;
@@ -21,10 +17,13 @@ nav {
   position: fixed;
   top: 100px;
   right: 0px;
-  background-image: url('../img/back2.png');
+  background-image: url('../img/background.png');
+  background-repeat: no-repeat;
+  background-position: center;
   width: 100vw;
   height: calc(100vh - 100px);
   z-index: 1;
+  border: 2px solid red;
 }
 
 .container {
