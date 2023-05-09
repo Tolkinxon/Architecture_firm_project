@@ -2,13 +2,25 @@
   margin: 0px;
   padding: 0px;
 }
-
-
+body {
+  margin: 0px auto;
+  background-image: url('../img/baack.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100vw;
+  height: 100vh;
+}
+/* body > div {
+  width: 100cw;
+  height: 100vh;
+  overflow: auto;
+} */
 
 .container {
   position: relative;
   margin: 0px auto;
   width: 1000px;
+  height: 100vh;
   padding: 20px;
   background: white;
   z-index: 10;
@@ -78,13 +90,4 @@ iframe {
 .fa-brands {
   margin-left: 4px;
   cursor: pointer;
-}
-body {
-  margin: 0px auto;
-  background-image: url('../img/baack.png');
-  background-repeat: no-repeat;
-  background-size: cover;
-  width: calc(100vw - 17px);
-  height: 100vh;
-
 }
