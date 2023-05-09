@@ -110,3 +110,7 @@ iframe {
   margin-left: 4px;
   cursor: pointer;
 }
+body {
+  background-image: url('../img/baack.png');
+  background-repeat: no-repeat;
+}
