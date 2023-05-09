@@ -114,6 +114,7 @@ body {
   margin: 0px auto;
   background-image: url('../img/baack.png');
   background-repeat: no-repeat;
+  background-size: cover;
   width: calc(100vw - 17px);
   height: 100vh;
 }
