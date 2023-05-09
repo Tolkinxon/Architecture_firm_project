@@ -2,25 +2,57 @@
   margin: 0px;
   padding: 0px;
 }
+
+::-webkit-scrollbar {
+  width: 0px;
+}
+
 body {
-  margin: 0px auto;
-  background-image: url('../img/baack.png');
+  width: 100vw;
+  height: 100vh;
+  border: 2px solid red;
+  background-image: url('../img/baack2.png');
   background-repeat: no-repeat;
   background-size: cover;
+}
+
+.wrapper {
+  margin: 0px auto;
+  position: fixed;
+  top: 0px;
+  right: 0px;
   width: 100vw;
   height: 100vh;
 }
-/* body > div {
-  width: 100cw;
-  height: 100vh;
-  overflow: auto;
-} */
+
+.wrapper img {
+  position: absolute;
+}
+.wrapper img:nth-child(1) {
+  top: 0mm;
+  left: 0mm;
+  z-index: 4;
+}
+.wrapper img:nth-child(2) {
+  top: 0mm;
+  right: -2.5mm;
+  z-index: 3;
+}
+.wrapper img:nth-child(3) {
+  bottom: 0mm;
+  right: -3mm;
+  z-index: 2;
+}
+.wrapper img:nth-child(4) {
+  bottom: 0mm;
+  left: -2mm;
+  z-index: 1;
+}
 
 .container {
   position: relative;
   margin: 0px auto;
   width: 1000px;
-  height: 100vh;
   padding: 20px;
   background: white;
   z-index: 10;
