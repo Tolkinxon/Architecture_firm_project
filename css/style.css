@@ -4,7 +4,7 @@
 }
 
 ::-webkit-scrollbar {
-  width: 0px;
+  width: 15px;
 }
 
 body {
@@ -12,6 +12,9 @@ body {
   height: 100vh;
   background-image: url('../img/baack2.png');
   background-repeat: no-repeat;
+  overflow: scroll;
+  display: fixed;
+  top: 0px;
 }
 
 .wrapper {
