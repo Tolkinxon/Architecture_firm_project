@@ -18,7 +18,7 @@ body {
   height: 100vh;
   background-image: url('../img/baack2.png');
   background-repeat: no-repeat;
-  overflow: scroll;
+  overflow-x: hidden;
   display: fixed;
   top: 0px;
 }
@@ -66,11 +66,11 @@ body {
 }
 
 h1 {
-  font-family: Arial, Helvetica, sans-serif;
-  font-weight: 10;
+  font-family: 'Courier New', Courier, monospace;
+  font-weight: 200;
   margin-top: 20px;
   font-style: normal;
-  font-size: 40px;
+  font-size: 50px;
   cursor: pointer;
 }
 
