@@ -10,10 +10,8 @@
 body {
   width: 100vw;
   height: 100vh;
-  border: 2px solid red;
   background-image: url('../img/baack2.png');
   background-repeat: no-repeat;
-  background-size: cover;
 }
 
 .wrapper {
