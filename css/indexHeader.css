@@ -6,12 +6,12 @@ body {
   background-color: beige;
 }
 
-.container {
+/* .container {
   margin: 0px auto;
   width: 1000px;
   padding: 20px;
   background: white;
-}
+} */
 
 /******* CARUSEL SIDE **********/
 .carusel {
@@ -112,5 +112,3 @@ body {
   left: 50%;
   bottom: 15px;
 }
-
-
