@@ -3,8 +3,6 @@
   padding: 0px;
 }
 
-
-
 .background-img {
   width: 100vw;
   position: fixed;
@@ -80,6 +78,7 @@ iframe {
   height: 950px;
   width: 100%;
   border: 2px solid red;
+  
 }
 
 .foot {
