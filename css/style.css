@@ -3,9 +3,7 @@
   padding: 0px;
 }
 
-/* ::-webkit-scrollbar {
-  width: 15px;
-} */
+
 
 .background-img {
   width: 100vw;
@@ -80,6 +78,8 @@ p {
 
 iframe {
   height: 950px;
+  width: 100%;
+  border: 2px solid red;
 }
 
 .foot {
