@@ -74,8 +74,6 @@ p {
   margin-top: 40px;
 }
 
-
-
 .foot {
   margin-top: 60px;
   width: 100%;
@@ -95,8 +93,7 @@ p {
   font-family: 'Courier New', Courier, monospace;
 }
 
-
-
+/****************************************************************************************/
 /* HOME STYLES */
 /******* CARUSEL SIDE **********/
 .carusel {
@@ -198,9 +195,7 @@ p {
   bottom: 15px;
 }
 /* HOME STYLES */
-
-
-
+/****************************************************************************************/
 /* ABOUT STYLES */
 .sectionAbout {
   display: flex;
@@ -223,11 +218,8 @@ p {
   background-color: black;
 }
 
-.container {
-  border: 2px solid red;
-}
 /* ABOUT STYLES */
-
+/****************************************************************************************/
 /* COMMERCIAL STYLES */
 
 /***** COMMERCIAL SHEET CODES ***********/
@@ -255,7 +247,52 @@ p {
 
 /***** COMMERCIAL SHEET CODES ***********/
 /* COMMERCIAL STYLES */
+/****************************************************************************************/
+/* CONTACT STYLES */
+.inputting {
+  display: flex;
+  height: 300px;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 20px;
+}
 
+.input-side {
+  width: 48.5%;
+}
 
+.showing-address {
+  width: 48.5%;
+}
 
+.input-side form {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
 
+input,
+textarea {
+  text-indent: 10px;
+  font-family: sans-serif;
+  font-size: 15px;
+  padding: 5px;
+}
+
+.showing-address {
+  width: 48.5%;
+}
+
+iframe {
+  width: 100%;
+  height: 100%;
+}
+
+button {
+  display: block;
+  margin: 10px auto;
+  background-color: white;
+  border: none;
+}
+/* CONTACT STYLES */
+/****************************************************************************************/
