@@ -4,6 +4,9 @@ const activeBtn = document.querySelector('.about')
 const itemClass = document.querySelectorAll('.item')
 const HomePage = document.querySelector('.Home')
 const AboutPage = document.querySelector('.About')
+const CommercialPage = document.querySelector('.Commercial')
+
+
 
 activeBtn.addEventListener('click', (e) => {
   console.log(e.target.parentElement)
@@ -16,15 +19,19 @@ activeBtn.addEventListener('click', (e) => {
     e.target.parentElement.classList.add('active')
     HomePage.style.display = 'block'
     AboutPage.style.display = 'none'
+    CommercialPage.style.display = 'none'
   }
   if (e.target.className === 'about-page') {
     e.target.parentElement.classList.add('active')
     HomePage.style.display = 'none'
     AboutPage.style.display = 'block'
+    CommercialPage.style.display = 'none'
   }
   if (e.target.className === 'commercial-page') {
     e.target.parentElement.classList.add('active')
-    iframeSide.src = 'commercial.html'
+    HomePage.style.display = 'none'
+    AboutPage.style.display = 'none'
+    CommercialPage.style.display = 'block'
   }
   if (e.target.className === 'residential-page') {
     e.target.parentElement.classList.add('active')
