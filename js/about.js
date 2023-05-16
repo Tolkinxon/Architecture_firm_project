@@ -10,5 +10,4 @@ containerEl.style.width = '900px'
 const widthContainer = containerEl.offsetWidth
 const heightContainer = containerEl.offsetHeight
 
-console.log(widthContainer)
-console.log(heightContainer)
+
