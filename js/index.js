@@ -2,32 +2,34 @@
 
 const activeBtn = document.querySelector('.about')
 const itemClass = document.querySelectorAll('.item')
-const iframeSide = document.querySelector('iframe')
+const HomePage = document.querySelector('.Home')
+const AboutPage = document.querySelector('.About')
 
 activeBtn.addEventListener('click', (e) => {
   console.log(e.target.parentElement)
 
-  itemClass.forEach(item => { item.classList.remove('active')})
+  itemClass.forEach((item) => {
+    item.classList.remove('active')
+  })
 
   if (e.target.className === 'home-page') {
     e.target.parentElement.classList.add('active')
-    iframeSide.src = 'indexHeader.html'
+    HomePage.style.display = 'block'
+    AboutPage.style.display = 'none'
   }
   if (e.target.className === 'about-page') {
     e.target.parentElement.classList.add('active')
-    iframeSide.src = 'about.html'
+    HomePage.style.display = 'none'
+    AboutPage.style.display = 'block'
   }
   if (e.target.className === 'commercial-page') {
-
     e.target.parentElement.classList.add('active')
     iframeSide.src = 'commercial.html'
   }
   if (e.target.className === 'residential-page') {
     e.target.parentElement.classList.add('active')
-    iframeSide.src = 'residential.html'
   }
   if (e.target.className === 'contact-page') {
     e.target.parentElement.classList.add('active')
-    iframeSide.src = 'contact.html'
   }
 })
